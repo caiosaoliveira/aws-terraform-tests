@@ -10,6 +10,10 @@ variable "aws_secret_key" {
     description = "AWS Secret Key"
 }
 
+variable "aws_account_number" {
+    description = "AWS Account Number"
+}
+
 variable "vmc_org_id" {
     description = "VMware Cloud on AWS Organization ID"
 }
