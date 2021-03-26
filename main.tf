@@ -1,3 +1,12 @@
+terraform {
+  required_providers {
+    vmc = {
+      source = "vmware/vmc"
+      version = "1.5.1"
+    }
+  }
+}
+
 # AWS
 
 provider "aws" {
